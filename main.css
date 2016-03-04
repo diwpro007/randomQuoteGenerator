@@ -1,0 +1,91 @@
+body {
+    background: #efefef;
+    font-family: Montserrat, sans-serif
+}
+
+hr {
+    border-top: 1px solid #ccc
+}
+
+footer {
+    text-align: center;
+    padding: 8px;
+    background: #000;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color:burlywood
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color:burlywood
+}
+
+.quote p {
+    font-size: 24px;
+}
+
+.wrapper {
+    min-height: calc(100vh - 35px);
+}
+
+.container {
+    width: 80%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 12px;
+    text-align: center;
+    background: white;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 -2px #cdcdcd;
+    box-shadow: inset 0 -2px #cdcdcd;
+    min-height:
+}
+
+.buttons {
+    margin: 4px;
+    color: white
+}
+
+#tweet-quote,
+#rand-quote {
+    padding: 6px;
+    margin: 4px;
+    border: solid;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+}
+
+#tweet-quote {
+    /*    background: #55acee;*/
+    color: #ffffff;
+    background: #3498db;
+    text-decoration: none;
+    float: left;
+}
+
+#tweet-quote:hover {
+    background: #71c6ff;
+    text-decoration: none;
+}
+
+#rand-quote {
+    background: gold;
+    float: right;
+}
+
+#rand-quote:hover {
+    background: #ffdd31;
+    text-decoration: none;
+}
+
+.clearfix {
+    content: " ";
+    display: table;
+    clear: both;
+}
