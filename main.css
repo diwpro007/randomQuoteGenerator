@@ -70,17 +70,17 @@ footer a:hover {
 }
 
 #tweet-quote:hover {
-    background: #71c6ff;
+    background: #427596;
     text-decoration: none;
 }
 
 #rand-quote {
-    background: gold;
+    background: #FFD700;
     float: right;
 }
 
 #rand-quote:hover {
-    background: #ffdd31;
+    background: #c9ae27;
     text-decoration: none;
 }
 
