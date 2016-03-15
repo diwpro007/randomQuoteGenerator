@@ -67,6 +67,7 @@ footer a:hover {
     background: #3498db;
     text-decoration: none;
     float: left;
+    transition: background 0.4s;
 }
 
 #tweet-quote:hover {
@@ -77,6 +78,7 @@ footer a:hover {
 #rand-quote {
     background: #FFD700;
     float: right;
+    transition: background 0.4s;
 }
 
 #rand-quote:hover {
